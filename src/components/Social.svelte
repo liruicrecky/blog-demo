@@ -1,0 +1,15 @@
+<script lang="ts">
+    export let platform: string;
+    export let username: string;
+</script>
+
+<a href={`https://www.${platform}.com/${username}`}>{platform}</a>
+
+<style>
+    a {
+        padding: 0.5rem 1rem;
+        color: white;
+        background-color: #4c1d95;
+        text-decoration: none;
+    }
+</style>
